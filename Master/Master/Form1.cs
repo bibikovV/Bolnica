@@ -114,7 +114,30 @@ namespace Master
 
 		private void button3_Click(object sender, EventArgs e)
 		{
+			FbConnectionStringBuilder cs = new FbConnectionStringBuilder();
+			FbConnection fbConn = new FbConnection();
+			cs.DataSource = "localhost";    // имя компьютера, на котором находится база данных
+			cs.UserID = "SYSDBA";           // имя пользователя, который может производить манипуляции с базой
+			cs.Password = "masterkey";      // паоль пользователя, который может производить манипуляции с базой
+			cs.Database = "C:/Users/Pepsishko/Desktop/DBLB1.FDB";  // путь к файлу базы данных
+			cs.Charset = "win1251";         // кодировка символов
+			string ConnString = cs.ToString();
 
+			fbConn.ConnectionString = ConnString;
+			fbConn.Open();
+			DataTable dt = new DataTable();
+			FbDataAdapter da = new FbDataAdapter();
+			FbCommand cmd = new FbCommand("UPDATE STUDENT SET SURNAME='" + textBox2.Text + "' , NAME='" + textBox3.Text + "', STIPEND=" + textBox4.Text + ",KURS=" + textBox5.Text + ",CITY='" + textBox6.Text + "',UNIV_ID=" + textBox7.Text + " WHERE STUDENT_ID= " + textBox1.Text + "", fbConn);
+			cmd.CommandType = CommandType.Text;
+			cmd.ExecuteNonQuery();
+			DataTable dt1 = new DataTable();
+			FbDataAdapter da1 = new FbDataAdapter();
+			FbCommand cmd1 = new FbCommand("select STUDENT_ID,SURNAME,NAME,STIPEND,KURS,CITY,UNIV_ID from STUDENT", fbConn);
+			cmd.CommandType = CommandType.Text;
+			FbDataReader dr = cmd1.ExecuteReader();
+			dt.Load(dr);
+			dataGridView1.DataSource = dt;
+			fbConn.Close();
 		}
 	}
 }
