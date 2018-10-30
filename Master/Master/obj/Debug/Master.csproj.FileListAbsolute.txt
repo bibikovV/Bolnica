@@ -1,0 +1,12 @@
+c:\users\pepsishko\source\repos\Master\Master\bin\Debug\Master.exe.config
+c:\users\pepsishko\source\repos\Master\Master\bin\Debug\Master.exe
+c:\users\pepsishko\source\repos\Master\Master\bin\Debug\Master.pdb
+c:\users\pepsishko\source\repos\Master\Master\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+c:\users\pepsishko\source\repos\Master\Master\bin\Debug\FirebirdSql.Data.FirebirdClient.pdb
+c:\users\pepsishko\source\repos\Master\Master\obj\Debug\Master.csprojResolveAssemblyReference.cache
+c:\users\pepsishko\source\repos\Master\Master\obj\Debug\Master.Form1.resources
+c:\users\pepsishko\source\repos\Master\Master\obj\Debug\Master.Properties.Resources.resources
+c:\users\pepsishko\source\repos\Master\Master\obj\Debug\Master.csproj.GenerateResource.Cache
+c:\users\pepsishko\source\repos\Master\Master\obj\Debug\Master.csproj.CoreCompileInputs.cache
+c:\users\pepsishko\source\repos\Master\Master\obj\Debug\Master.exe
+c:\users\pepsishko\source\repos\Master\Master\obj\Debug\Master.pdb
