@@ -1,1 +1,1 @@
-# Bolnica
+# Institut
