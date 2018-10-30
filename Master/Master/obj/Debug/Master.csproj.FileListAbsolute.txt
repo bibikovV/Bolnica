@@ -10,3 +10,15 @@ c:\users\pepsishko\source\repos\Master\Master\obj\Debug\Master.csproj.GenerateRe
 c:\users\pepsishko\source\repos\Master\Master\obj\Debug\Master.csproj.CoreCompileInputs.cache
 c:\users\pepsishko\source\repos\Master\Master\obj\Debug\Master.exe
 c:\users\pepsishko\source\repos\Master\Master\obj\Debug\Master.pdb
+C:\Users\Pepsishko\Desktop\Bolnica--\Master\Master\bin\Debug\Master.exe.config
+C:\Users\Pepsishko\Desktop\Bolnica--\Master\Master\bin\Debug\Master.exe
+C:\Users\Pepsishko\Desktop\Bolnica--\Master\Master\bin\Debug\Master.pdb
+C:\Users\Pepsishko\Desktop\Bolnica--\Master\Master\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+C:\Users\Pepsishko\Desktop\Bolnica--\Master\Master\bin\Debug\FirebirdSql.Data.FirebirdClient.pdb
+C:\Users\Pepsishko\Desktop\Bolnica--\Master\Master\obj\Debug\Master.csprojResolveAssemblyReference.cache
+C:\Users\Pepsishko\Desktop\Bolnica--\Master\Master\obj\Debug\Master.Form1.resources
+C:\Users\Pepsishko\Desktop\Bolnica--\Master\Master\obj\Debug\Master.Properties.Resources.resources
+C:\Users\Pepsishko\Desktop\Bolnica--\Master\Master\obj\Debug\Master.csproj.GenerateResource.Cache
+C:\Users\Pepsishko\Desktop\Bolnica--\Master\Master\obj\Debug\Master.csproj.CoreCompileInputs.cache
+C:\Users\Pepsishko\Desktop\Bolnica--\Master\Master\obj\Debug\Master.exe
+C:\Users\Pepsishko\Desktop\Bolnica--\Master\Master\obj\Debug\Master.pdb
